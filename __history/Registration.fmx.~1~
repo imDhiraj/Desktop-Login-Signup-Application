@@ -1,0 +1,69 @@
+object RegistrationForm: TRegistrationForm
+  Left = 0
+  Top = 0
+  Caption = 'Registration'
+  ClientHeight = 350
+  ClientWidth = 358
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object NameLabel: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 48.000000000000000000
+    Text = 'Name'
+    TabOrder = 0
+  end
+  object AgeLabel: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 96.000000000000000000
+    Text = 'Age'
+    TabOrder = 1
+  end
+  object UsernameLabel: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 151.000000000000000000
+    Text = 'Username'
+    TabOrder = 2
+  end
+  object PasswordLabel: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 200.000000000000000000
+    Text = 'Password'
+    TabOrder = 3
+  end
+  object NmaeEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 200.000000000000000000
+    Position.Y = 48.000000000000000000
+  end
+  object AgeEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 200.000000000000000000
+    Position.Y = 96.000000000000000000
+  end
+  object UsernameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Position.X = 200.000000000000000000
+    Position.Y = 146.000000000000000000
+  end
+  object PasswordEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 7
+    Position.X = 200.000000000000000000
+    Position.Y = 200.000000000000000000
+  end
+  object ConfirmButton: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 88.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Register'
+    TextSettings.Trimming = None
+  end
+end

@@ -1,0 +1,33 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Main'
+  ClientHeight = 272
+  ClientWidth = 408
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object MainLoginButton: TButton
+    Position.X = 64.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Login'
+    TextSettings.Trimming = None
+    OnClick = MainLoginButtonClick
+  end
+  object MainRegisterButton: TButton
+    Position.X = 240.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Register'
+    TextSettings.Trimming = None
+    OnClick = MainRegisterButtonClick
+  end
+end
