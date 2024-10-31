@@ -38,8 +38,8 @@ This C++ Builder application provides a simple login and signup system. Users ca
 
 **Usage**
 
-1.  **Signup:**
-      * Click the "Signup" button.
+1.  **Regitration:**
+      * Click the "Register" button.
       * Enter a new username and password.
       * Click the "Register" button to create a new account.
 2.  **Login:**
