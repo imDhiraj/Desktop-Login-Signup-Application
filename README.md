@@ -2,7 +2,7 @@
 
 **Overview**
 
-This C++ Builder application provides a simple login and signup system. Users can register new accounts and log in to the system.
+A desktop application developed in C++ using Embarcadero C++ Builder that provides a simple and secure login and signup system. The application allows users to register and log into the system, with plans to enhance security by migrating user data from text file storage to a more secure database solution.
 
 **Features**
 
