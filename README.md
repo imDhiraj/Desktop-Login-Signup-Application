@@ -15,7 +15,7 @@ A desktop application developed in C++ using Embarcadero C++ Builder that provid
 
 | Main Page | Registration Page |
 |---|---|
-|![image](https://github.com/user-attachments/assets/752529b1-1c7b-4e83-b53d-93e0d542e20f) | ![image](https://github.com/user-attachments/assets/72532788-ae64-4dea-8675-4c14b5dea7b3)
+|![image](https://github.com/user-attachments/assets/752529b1-1c7b-4e83-b53d-93e0d542e20f) | ![image](https://github.com/user-attachments/assets/72532788-ae64-4dea-8675-4c14b5dea7b3) |
 
 
 | Login Page(if something is wrong) | Login Page | Welcome Page/Final Page|
